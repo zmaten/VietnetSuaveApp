@@ -17,7 +17,7 @@ module Db =
         Id = id
         Name = shop.Name
         Coordinates = shop.Coordinates
-        Rating = Some (Rate(4.0))
+        Rating = Some (ShopRating(4.0))
     }
     shopStorage.Add(id, shopToSave)
     shopToSave

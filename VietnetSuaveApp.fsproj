@@ -6,7 +6,7 @@
   <ItemGroup>
     <Compile Include="types/IWrappedDecimal.fs" />
     <Compile Include="types/Units.fs" />
-    <Compile Include="types/Rating5.fs" />
+    <Compile Include="types/ShopRating.fs" />
     <Compile Include="types/Shop.fs" />
     <Compile Include="Db.fs" />
     <Compile Include="Restful.fs" />

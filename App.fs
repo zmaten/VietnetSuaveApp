@@ -14,10 +14,13 @@ let app =
           POST >=> choose
             [ path "/hello" >=> OK "Hello POST!" ] ]
 
+
+
 [<EntryPoint>]
 let main argv =
     let shopWebPart = rest "shops" {
         GetAll = Db.getShops
+        Create = Db.createShop
     }
     startWebServer defaultConfig shopWebPart
     0
