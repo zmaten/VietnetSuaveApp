@@ -22,5 +22,6 @@ let main argv =
         GetAll = Db.getShops
         Create = Db.createShop
     }
+
     startWebServer defaultConfig shopWebPart
     0
